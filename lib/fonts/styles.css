@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Beautiful Every Time";
+    src: url("BeautifulEveryTime.woff2") format("woff2"), url("BeautifulEveryTime.woff") format("woff"),
+        url("BeautifulEveryTime.svg#BeautifulEveryTime") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DIN";
+    src: url("DIN-Regular.woff2") format("woff2"), url("DIN-Regular.woff") format("woff"),
+        url("DIN-Regular.svg#DIN-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

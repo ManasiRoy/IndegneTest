@@ -1,0 +1,192 @@
+.icon-1x {
+  font-size: 1.2rem; }
+
+.icon-2x {
+  font-size: 2em; }
+
+.icon-3x {
+  font-size: 3em; }
+
+.icon-4x {
+  font-size: 4em; }
+
+body {
+  color: #000;
+  overflow-x: hidden; }
+
+body,
+html {
+  height: 100%;
+  background: url(../images/bg.jpg) no-repeat fixed;
+  background-size: cover; }
+
+img {
+  max-width: 100%; }
+
+.display-inline-block {
+  display: inline-block;
+  vertical-align: middle; }
+
+a {
+  cursor: pointer; }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1366px; } }
+.mb-150 {
+  margin-bottom: 150px; }
+
+.space-both {
+  padding-top: 150px;
+  padding-bottom: 150px; }
+
+.bg-wrap {
+  height: 100vh; }
+  .bg-wrap .primary-text {
+    color: #fff;
+    font-size: 6rem;
+    margin-bottom: 200px;
+    font-family: "Beautiful Every Time";
+    text-transform: uppercase; }
+  .bg-wrap .circle-wrap {
+    width: 259px;
+    height: 258px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -ms-border-radius: 100%;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .bg-wrap .circle-wrap .icon {
+      margin-bottom: 30px;
+      min-height: 95px;
+      transition: all 0.5s ease-in;
+      -webkit-transition: all 0.5s ease-in;
+      -ms-transition: all 0.5s ease-in; }
+    .bg-wrap .circle-wrap .icontext {
+      font-size: 1.6875rem;
+      color: #cc0000;
+      font-family: "DIN";
+      font-family: 400; }
+    .bg-wrap .circle-wrap:hover {
+      text-decoration: none; }
+      .bg-wrap .circle-wrap:hover .icon {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1); }
+      .bg-wrap .circle-wrap:hover .icontext {
+        text-decoration: none; }
+  .bg-wrap .relevant-outr h2 {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    color: #fff; }
+  .bg-wrap .relevant-outr .relevant-wrap {
+    height: 67px;
+    width: 100%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border: 16px solid rgba(255, 255, 255, 0.25);
+    display: flex;
+    margin-bottom: 25px; }
+    .bg-wrap .relevant-outr .relevant-wrap .relevant-inner-wrap {
+      width: 33.33%; }
+      .bg-wrap .relevant-outr .relevant-wrap .relevant-inner-wrap.less-relevant {
+        background: #c37562;
+        border-radius: 30px 0 0 30px;
+        -webkit-border-radius: 30px 0 0 30px;
+        -ms-border-radius: 30px 0 0 30px; }
+      .bg-wrap .relevant-outr .relevant-wrap .relevant-inner-wrap.relevant {
+        background: #c4403a; }
+      .bg-wrap .relevant-outr .relevant-wrap .relevant-inner-wrap.very-relevant {
+        background: #c30f10;
+        border-radius: 0 30px 30px 0;
+        -webkit-border-radius: 0 30px 30px 0;
+        -ms-border-radius: 0 30px 30px 0; }
+  .bg-wrap button.btn.btn-lg {
+    width: 100%;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -ms-border-radius: 80px;
+    padding: 40px 45px;
+    font-size: 35px;
+    border: 2px solid #fff;
+    line-height: 1;
+    background: rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+    color: #fff;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in; }
+    .bg-wrap button.btn.btn-lg span {
+      margin-right: 40px; }
+    .bg-wrap button.btn.btn-lg:hover {
+      background: #fff;
+      color: #cc0000; }
+  .bg-wrap span.ui-slider-handle.ui-corner-all.ui-state-default {
+    background: url(../images/slider-ranger.png) no-repeat;
+    width: 32px;
+    height: 50px;
+    display: block;
+    border: none;
+    outline: none;
+    left: 50%; }
+
+@media only screen and (max-width: 1200px) {
+  .bg-wrap .primary-text {
+    font-size: 3rem;
+    margin-bottom: 50px; }
+  .bg-wrap .circle-wrap {
+    width: 150px;
+    height: 150px; }
+    .bg-wrap .circle-wrap .icon {
+      max-width: 50px;
+      min-height: inherit;
+      margin-bottom: 15px; }
+    .bg-wrap .circle-wrap .icontext {
+      font-size: 1.25rem; }
+  .bg-wrap .mb-150 {
+    margin-bottom: 100px; }
+  .bg-wrap .relevant-outr h2 {
+    font-size: 1.25rem; }
+  .bg-wrap button.btn.btn-lg {
+    font-size: 1.25rem;
+    padding: 20px 45px; } }
+@media only screen and (max-width: 991px) {
+  .bg-wrap .primary-text {
+    font-size: 2.1875rem;
+    margin-bottom: 30px; }
+  .bg-wrap .circle-wrap {
+    width: 130px;
+    height: 130px; }
+  .bg-wrap .mb-150 {
+    margin-bottom: 70px; } }
+@media only screen and (max-width: 767px) {
+  .bg-wrap .circle-wrap {
+    width: 100px;
+    height: 100px; }
+    .bg-wrap .circle-wrap .icon {
+      max-width: 30px;
+      margin-bottom: 10px; }
+    .bg-wrap .circle-wrap .icontext {
+      font-size: 0.875rem; }
+  .bg-wrap .relevant-outr h2 {
+    font-size: 0.875rem; }
+  .bg-wrap .relevant-outr .relevant-wrap {
+    border-width: 8px;
+    height: 50px; }
+  .bg-wrap .fivecirleOutr {
+    justify-content: center; }
+    .bg-wrap .fivecirleOutr .col {
+      flex-grow: 0; }
+  .bg-wrap button.btn.btn-lg {
+    font-size: 1rem;
+    padding: 15px 20px; }
+
+  .space-both {
+    padding-top: 50px;
+    padding-bottom: 50px; } }
